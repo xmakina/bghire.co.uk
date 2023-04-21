@@ -23,6 +23,7 @@ We are still in soft launch, so if you found this page, welcome and thank you fo
 
 <script>
     $('#forkme_banner').remove()
+    $('a.btn').remove()
     
     var checkExist = setInterval(function() {
        if ($('span.ribbon-inner > p').length) {
